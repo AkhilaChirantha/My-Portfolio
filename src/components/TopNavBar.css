@@ -1,0 +1,120 @@
+.nav-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+.nav-bar-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Logo {
+    width: 60px;
+    padding-left: 40px;
+}
+
+.logo-name {
+    font-size: 20px;
+    font-family: Gotu;
+}
+
+.nav-bar-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: Gotu;
+}
+
+.nav-bar-right-item {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-bar-right-item:hover {
+    color: #1E5DC0;
+}
+
+.active-nav {
+    color: #1E5DC0 !important;
+    font-weight: bold;
+}
+
+.hire-me-button {
+    padding: 8px 25px;
+    background-color: #1E5DC0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Gotu;
+    margin-right: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.hire-me-button:hover {
+    background-color: #154694;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ── Responsive Styles ── */
+
+@media screen and (max-width: 1024px) {
+    .nav-bar-container {
+        padding: 0 20px;
+    }
+
+    .nav-bar-right {
+        gap: 20px;
+    }
+
+    .hire-me-button {
+        margin-right: 0;
+    }
+
+    .Logo {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar-container {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        gap: 15px;
+    }
+
+    .nav-bar-left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-bar-right {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding-bottom: 10px;
+    }
+
+    .nav-bar-right-item {
+        font-size: 14px;
+    }
+
+    .hire-me-button {
+        margin-right: 0;
+        padding: 6px 16px;
+        font-size: 14px;
+    }
+}
