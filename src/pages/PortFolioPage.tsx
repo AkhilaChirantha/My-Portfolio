@@ -186,7 +186,7 @@ export default function PortFolioPage() {
                         <div className='diamond-frame'>
 
                             <div className='diamond-image'>
-                                <img src={allAboutMeBackground} alt="Akhila Chirantha" />
+                                <img src={allAboutMeBackground} alt="Akhila Chirantha React Developer Sri Lanka" />
                             </div>
                         </div>
                     </div>

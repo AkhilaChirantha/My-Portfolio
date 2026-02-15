@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://akhilachirantha.netlify.app/sitemap.xml
