@@ -1,5 +1,5 @@
 import './TopNavBar.css'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/Logo.png'
 
 interface TopNavBarProps {
     onHireMeClick: () => void;
