@@ -374,7 +374,7 @@ export default function PortFolioPage() {
                                     <path d="M22 8.5C22 8.5 21 8.846 21 9.8125C21 10.779 22 11.0335 22 12C22 12.9665 21 13.221 21 14.1875C21 15.154 22 15.5 22 15.5" stroke="#8E8E8E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     <path d="M2 8.5C2 8.5 3 8.846 3 9.8125C3 10.779 2 11.0335 2 12C2 12.9665 3 13.221 3 14.1875C3 15.154 2 15.5 2 15.5" stroke="#8E8E8E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
-                                <a href="tel:+94763765412">076 376 5412</a> / <a href="tel:+94702314232">070 231 4232</a>
+                                <a href="tel:+94763765412">076 376 5412</a> / <a href="tel:+94704239775">070 423 9775</a>
                             </div>
                         </div>
 
